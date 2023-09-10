@@ -9,6 +9,10 @@
   text-decoration: none !important;
 }
 
+.loading-container {
+  min-height: 100vh !important;
+}
+
 body {
   background: url(../assets/background.jpg) no-repeat;
   background-size: cover;
@@ -36,3 +40,4 @@ body {
 }
 // styles
 @import "homePage";
+@import "loading";
